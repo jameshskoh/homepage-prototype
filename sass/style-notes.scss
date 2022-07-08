@@ -1,0 +1,134 @@
+/*
+    Fonts
+*/
+$family-serif: "Merriweather", "Noto";
+$family-sans-serif: "Public Sans", "Open Sans";
+$family-monospace: "JetBrains Mono", "Noto Sans Mono";
+$family-primary: $family-serif;
+$family-secondary: "Montserrat";
+$family-code: $family-monospace;
+
+// Title/subtitle Customizations
+$title-family: $family-secondary;
+$subtitle-family: $family-sans-serif;
+
+/*
+    Colors
+*/
+// Globals
+$lighter-beige: hsl(23, 10%, 96%);
+$light-beige: hsl(23, 10%, 87%);
+$beige: hsl(22, 8%, 83%);
+
+// same definition as default
+$white: hsl(0, 0%, 100%);
+$grey: hsl(0, 0%, 48%);
+
+$scheme-main: $white;
+$scheme-main-bis: $light-beige;
+$scheme-main-ter: $beige;
+$scheme-invert: hsl(223, 7%, 9%);
+$scheme-invert-bis: hsl(223, 5%, 15%);
+$scheme-invert-ter: hsl(223, 4%, 22%);
+
+$background: $scheme-invert;
+// $text: "";
+$link: hsl(205, 90%, 38%);
+$link-hover: $grey;
+
+// For Heroes
+$secondary: $scheme-invert-bis;
+$secondary-invert: $light-beige;
+$secondary-light: $scheme-invert-ter;
+$secondary-dark: $scheme-invert;
+
+$secondary-colors: ("secondary": ($secondary, $secondary-invert, $secondary-light, $secondary-dark));
+
+$custom-colors: $secondary-colors;
+
+// $custom-shades: "";
+
+$footer-background-color: hsl(330,  5%, 10%);
+$footer-color: hsl(330,  5%, 100%);
+
+/*
+Navbar
+
+design: taller navbar?
+
+Controlling colors
+$scheme-main
+$scheme-main-bis
+$scheme-invert
+$background
+$text
+$link
+$colors
+transparent
+
+$navbar-background-color                        $scheme-main
+$navbar-box-shadow-color                        $background
+$navbar-item-color                              $text
+$navbar-item-hover-color                        $link
+$navbar-item-hover-background-color             $scheme-main-bis
+$navbar-item-active-color                       $scheme-invert
+$navbar-item-active-background-color            transparent
+$navbar-burger-color                            $navbar-item-color
+$navbar-tab-hover-background-color              $transparent
+$navbar-tab-hover-border-bottom-color           $link
+$navbar-tab-active-color                        $link
+$navbar-tab-active-background-color             transparent
+$navbar-tab-active-border-bottom-color          $link
+$navbar-dropdown-background-color               $scheme-main
+$navbar-dropdown-arrow                          $link
+$navbar-dropdown-item-hover-color               $scheme-invert
+$navbar-dropdown-item-hover-background-color    $background
+$navbar-dropdown-item-active-color              $link
+$navbar-dropdown-item-active-background-color   $background
+$navbar-divider-background-color                $background
+$navbar-colors                                  $colors
+
+coordinate these navbar properties
+apply custom color attributes accordingly
+*/
+
+/*
+Hero
+
+Controlling colors
+$colors
+
+$hero-colors                $colors
+
+coordinate hero-colors
+apply custom color attributes accordingly
+*/
+
+/*
+Breadcrumb
+
+Controlling colors
+$link
+$text-strong
+$border-hover
+
+$breadcrumb-item-color              $link
+$breadcrumb-item-hover-color        $link-hover
+$breadcrumb-item-active-color       $text-strong
+$breadcrumb-item-separator-color    $border-hover
+
+looks fine to me
+*/
+
+/*
+My Recent Projects and My Recent Posts
+should have larger padding
+ideally should have divider
+*/
+
+/*
+Footer
+
+$footer-background-color        $scheme-main-bis
+$footer-color                   -
+*/

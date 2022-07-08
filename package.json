@@ -1,0 +1,26 @@
+{
+  "name": "homepage-prototype",
+  "description": "A static prototype to my GitHub Pages",
+  "version": "1.0.0",
+  "main": "sass/mystyles.scss",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^7.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameshskoh/homepage-prototype.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameshskoh/homepage-prototype/issues"
+  },
+  "homepage": "https://github.com/jameshskoh/homepage-prototype#readme"
+}
